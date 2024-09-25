@@ -1,6 +1,13 @@
 {
+  "name": "compressKoala",
+  "version": "1.0.0",
+  "description": "Video Compression Tool",
+  "scripts": {
+    "koala": "node koala.js"
+  },
   "dependencies": {
-    "@ffmpeg/core": "^0.12.6",
-    "@ffmpeg/ffmpeg": "^0.12.10"
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "ffmpeg-on-progress": "^1.0.0",
+    "fluent-ffmpeg": "^2.1.3"
   }
 }
