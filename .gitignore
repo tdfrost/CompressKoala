@@ -1,0 +1,66 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Output of build tools
+/dist
+/build
+/tmp
+/out
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage directory used by testing frameworks
+coverage/
+
+# Ignore OS-specific or IDE-specific files
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*.swp
+*.swo
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore bundlers or transpilers outputs (if applicable)
+*.bundle.js
+*.min.js
+*.map
+/.parcel-cache
+/.next
+/.nuxt
+/.out
+
+# Ignore specific libraries if not needed
+/.cache
